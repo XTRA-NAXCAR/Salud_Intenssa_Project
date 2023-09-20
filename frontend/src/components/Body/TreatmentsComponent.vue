@@ -1,7 +1,9 @@
 <template>
   <div class="custom-background">
     <div class="container-fluid custom-container">
-      <h1 class="text-center title-font">- MEDICINA ESTÉTICA VASCULAR -</h1>
+      <h1 class="text-center title-font">
+        - SERVICIOS DE LA CLINICA SALUD INTENSSA -
+      </h1>
       <div class="row d-flex justify-content-center">
         <div class="col-5 custom-box me-5">
           <div>
@@ -12,11 +14,10 @@
               minimamente invasivo.
             </p>
             <p class="description-font">
-              La escleroterapia es una solución altamente efectiva para aquellos
-              que buscan alivio de las venas varicosas y las antiestéticas
-              arañas vasculares. Este procedimiento minimamente invasivo se ha
-              convertido en una opción de tratamiento ampliamente aceptada
-              debido a su eficacia y seguridad.
+              Consiste en inyectar una solución en la vena mediante una aguja.
+              La solución de escleroterapia hace que la vena se fibrose. La
+              fibrosis obliga a la sangre a circular por venas sanas. Luego, la
+              vena colapsada desaparece.
             </p>
             <div class="d-flex justify-content-center">
               <iframe
@@ -37,10 +38,11 @@
         </div>
         <div class="col-5 custom-box ms-5">
           <div>
-            <h2 class="subtitle-font">LASER TERAPIA</h2>
+            <h2 class="subtitle-font">LASER ARAÑAS VASCULARES</h2>
             <p class="description-font">
-              Experimenta la Transformación con la Terapia Láser para
-              Telangiectasias.
+              El laser es útil para vasos anómalos están localizados en un nivel
+              más superficial de la piel, tienen un calibre mucho menor y, por
+              lo tanto, son más difíciles de pinchar.
             </p>
             <p class="description-font">
               La terapia láser para telangiectasias es una solución de
@@ -78,18 +80,21 @@
               invasiva.
             </p>
             <p class="description-font">
-              Con el Doppler Venoso, podemos obtener información detallada sobre
-              el flujo de sangre en las áreas específicas que deseas tratar, lo
-              que nos permite diseñar procedimientos de belleza adaptados a tus
-              necesidades individuales.
+              La ecografía Doppler es una prueba no invasiva que calcula el
+              flujo de la sangre en los vasos sanguíneos haciendo rebotar ondas
+              sonoras de alta frecuencia (ecografía) en los glóbulos rojos
+              circulantes. En la ecografía común, se utilizan ondas sonoras para
+              crear imágenes, pero no se puede mostrar el flujo sanguíneo.
             </p>
-            <div class="d-flex justify-content-center">
-              <img
-                src="@/assets/images/body/doppler.jpeg"
-                alt="..."
-                class="custom-image"
-              />
-            </div>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/yel2FNJqqEk?si=SK8SEXe1Zd-OZpgv&amp;controls=0&amp;start=26"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
           </div>
           <div class="d-flex justify-content-evenly align-items-center mt-5">
             <button class="custom-button button-font">CONOCER MÁS</button>
@@ -130,17 +135,23 @@
         <div class="col-10 custom-box mt-5">
           <div class="row my-5">
             <div class="col-7">
-              <h2 class="subtitle-font">COMPRESOTERAPIA</h2>
+              <h2 class="subtitle-font">CONSULTA MEDICA VASCULAR</h2>
               <p class="description-font">
-                La Compresoterapia es una técnica avanzada que forma parte de
-                nuestra oferta de servicios en
-                <span class="custom-span">Salud Intenssa</span>, diseñada para
-                mejorar tu bienestar y apoyar tus objetivos de salud y belleza.
-                Con la Compresoterapia, te ofrecemos una experiencia única que
-                combina comodidad y efectividad en un solo tratamiento.
+                La consulta vascular está dedicada a la prevención, diagnóstico
+                y tratamiento de las enfermedades de las arterias, las venas y
+                los vasos linfáticos y en general de todas las
+                enfermedades vasculares, así como el segumiento de los
+                tratamientos realizados.
               </p>
               <p class="description-font">
-                Esta terapia se basa en la aplicación de presión intermitente y suave en áreas específicas de tu cuerpo, lo que promueve una circulación sanguínea óptima, ayuda a eliminar toxinas y reduce la retención de líquidos. Nuestro sistema de Compresoterapia está diseñado para adaptarse a tus necesidades individuales y es una excelente opción tanto para quienes buscan mejorar la apariencia de sus piernas como para quienes desean experimentar una relajación profunda.
+                Nos enorgullece ofrecer una atención de vanguardia para abordar
+                todas las enfermedades vasculares, asegurando que nuestros
+                pacientes reciban la atención de alta calidad que merecen. Además,
+                no nos limitamos al tratamiento inicial, sino que también
+                proporcionamos un seguimiento meticuloso de los tratamientos
+                realizados para garantizar resultados óptimos y la satisfacción de
+                nuestros pacientes en su búsqueda de una salud vascular óptima y
+                una estética mejorada.
               </p>
               <div
                 class="d-flex justify-content-evenly align-items-center mt-5"
@@ -154,7 +165,7 @@
             <div class="col-5 d-flex align-items-center">
               <div class="d-flex justify-content-center">
                 <img
-                  src="@/assets/images/body/reflexotherapy.jpeg"
+                  src="@/assets/images/body/medic_consult.jpeg"
                   alt="..."
                   class="custom-image"
                 />

@@ -5,8 +5,10 @@ import MainTextComponent from '@/components/Body/MainTextComponent.vue';
 import IntermediatePictureComponent from '@/components/Body/IntermediatePictureComponent.vue';
 import TreatmentsComponent from '@/components/Body/TreatmentsComponent.vue';
 import ServicesComponent from '@/components/Body/ServicesComponent.vue';
+import PainMedicine from './components/Body/PainMedicine.vue';
 import FooterComponent from '@/components/Footer/FooterComponent.vue';
 import WhatsAppFloatComponent from '@/components/Social_Networks/WhatsAppFloatComponent.vue';
+import FloatingSocialNetwork from './components/Social_Networks/FloatingSocialNetwork.vue';
 </script>
 
 <template>
@@ -16,8 +18,10 @@ import WhatsAppFloatComponent from '@/components/Social_Networks/WhatsAppFloatCo
 <IntermediatePictureComponent></IntermediatePictureComponent>
 <TreatmentsComponent></TreatmentsComponent>
 <ServicesComponent></ServicesComponent>
+<PainMedicine></PainMedicine>
 <FooterComponent></FooterComponent>
 <WhatsAppFloatComponent></WhatsAppFloatComponent>
+<FloatingSocialNetwork></FloatingSocialNetwork>
 </template>
 
 <style>
