@@ -151,7 +151,7 @@
                 </button>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-5 d-flex align-items-center">
               <div class="d-flex justify-content-center">
                 <img
                   src="@/assets/images/body/reflexotherapy.jpeg"
@@ -239,7 +239,7 @@
   width: 9em;
 }
 .custom-image {
-  width: 560px;
+  width: 100%;
   border-radius: 25px;
 }
 .custom-span {
