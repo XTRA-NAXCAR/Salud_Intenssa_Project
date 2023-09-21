@@ -2,7 +2,7 @@
   <div class="custom-background">
     <div class="container-fluid custom-container">
       <h1 class="text-center title-font">
-        - SERVICIOS DE LA CLINICA SALUD INTENSSA -
+        - MEDICINA ESTETICA VASCULAR -
       </h1>
       <div class="row d-flex justify-content-center">
         <div class="col-5 custom-box me-5">
@@ -86,7 +86,8 @@
               circulantes. En la ecografía común, se utilizan ondas sonoras para
               crear imágenes, pero no se puede mostrar el flujo sanguíneo.
             </p>
-            <iframe
+            <div class="d-flex justify-content-center">
+              <iframe
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/yel2FNJqqEk?si=SK8SEXe1Zd-OZpgv&amp;controls=0&amp;start=26"
@@ -95,6 +96,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
+            </div>
           </div>
           <div class="d-flex justify-content-evenly align-items-center mt-5">
             <button class="custom-button button-font">CONOCER MÁS</button>

@@ -2,7 +2,7 @@
   <div class="custom-background">
     <div class="container custom-container">
       <h1 class="text-center title-font">
-        - MEDICINA ESTETICA DERMATOLOGICA -
+        - MEDICINA ESTETICA FACIAL -
       </h1>
       <div class="row">
         <div
