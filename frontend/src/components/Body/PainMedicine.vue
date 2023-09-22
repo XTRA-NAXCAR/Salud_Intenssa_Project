@@ -4,7 +4,7 @@
       <h1 class="title-font text-center">- MEDICINA DEL DOLOR -</h1>
       <div class="row">
         <div class="col-7 custom-card-pain my-5">
-          <h2 class="subtitle-font">TERAPIA NEURAL</h2>
+          <h2 class="subtitle-font" id="neural-therapy">TERAPIA NEURAL</h2>
           <p class="description-font">
             La terapia neural, un enfoque terapéutico único, implica la
             administración de pequeñas dosis de anestésico local en áreas
@@ -114,7 +114,7 @@
         </div>
 
         <div class="col-7 custom-card-pain mt-5">
-          <h2 class="subtitle-font">TERAPIAS BIOLOGICAS</h2>
+          <h2 class="subtitle-font" id="biological-therapy">TERAPIAS BIOLOGICAS</h2>
           <p class="description-font">
             Nuestra especialidad abarca un amplio espectro de patologías,
             brindando soluciones terapéuticas efectivas para una variedad de
@@ -160,7 +160,7 @@
       <h1 class="title-font text-center my-5">- COSMETOLOGÍA -</h1>
       <div class="row">
         <div class="col-7 custom-card-pain my-5">
-          <h2 class="subtitle-font">HIDRODERMOABRASION</h2>
+          <h2 class="subtitle-font" id="hydrodermoabrasion">HIDRODERMOABRASION</h2>
           <p class="description-font">
             La hidrodermoabrasión, un procedimiento de última generación, emerge
             como una solución altamente efectiva para revitalizar y mejorar la

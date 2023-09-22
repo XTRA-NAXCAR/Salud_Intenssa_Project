@@ -37,7 +37,7 @@
           </swiper>
         </div>
         <div class="col-7 custom-card my-5">
-          <h2 class="subtitle-font">LASER FACIAL</h2>
+          <h2 class="subtitle-font" id="facial-laser">LASER FACIAL</h2>
           <p class="description-font">
             El revolucionario tratamiento con rayo láser que ofrecemos en la
             Clínica Salud Intenssa proporciona una serie de ventajas notables
@@ -61,7 +61,7 @@
         </div>
 
         <div class="col-7 custom-card my-5">
-          <h2 class="subtitle-font">TOXINA BOTULINICA</h2>
+          <h2 class="subtitle-font" id="botulinum-toxin">TOXINA BOTULINICA</h2>
           <p class="description-font">
             La toxina botulínica, conocida por su nombre comercial Botox, es un
             tratamiento altamente efectivo que ofrece una serie de ventajas
@@ -189,7 +189,7 @@
           </swiper>
         </div>
         <div class="col-7 custom-card my-5">
-          <h2 class="subtitle-font">ACIDO HIALURONICO</h2>
+          <h2 class="subtitle-font" id="hyaluronic-acid">ACIDO HIALURONICO</h2>
           <p class="description-font">
             El ácido hialurónico, un aliado esencial en el mundo de la belleza y
             la estética, ofrece una serie de beneficios extraordinarios para la
@@ -246,7 +246,7 @@
         </div>
 
         <div class="col-7 custom-card mt-5">
-          <h2 class="subtitle-font">MEDICINA REGENERATIVA</h2>
+          <h2 class="subtitle-font" id="regenerative-medicine">MEDICINA REGENERATIVA</h2>
           <p class="description-font">
             La medicina regenerativa se despliega como un vasto horizonte de
             disciplinas científicas, que abarcan desde la sofisticada ingeniería

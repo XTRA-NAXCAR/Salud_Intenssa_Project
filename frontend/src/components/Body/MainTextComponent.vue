@@ -14,8 +14,11 @@
                 </div>
             </div>
             <div class="col-7 custom-background">
+                <p class="text-font">Misión:</p>
                 <p class="text-font">Somos un equipo médico interdisciplinario en función del servicio al paciente en el área de medicina estética vascular y dermatológica.</p>
+                <p class="text-font">Valor:</p>
                 <p class="text-font">Ser líder en los resultados terapéuticos médicos estéticos vasculares y dermatológicos generando alta innovación en mejoramiento de la calidad.</p>
+                <p class="text-font">Visión:</p>
                 <p class="text-font">Para el 2028 seremos reconocidos en el distrito de Antioquia por nuestro modelo terapéutico y servicio en medicina estética vascular y dermatológica.</p>
             </div>
         </div>

@@ -5,9 +5,9 @@
         - MEDICINA ESTETICA VASCULAR -
       </h1>
       <div class="row d-flex justify-content-center">
-        <div class="col-5 custom-box me-5">
+        <div class="col-5 custom-box me-5" ref="sclerotherapy">
           <div>
-            <h2 class="subtitle-font">ESCLEROTERAPIA</h2>
+            <h2 class="subtitle-font" id="sclerotherapy">ESCLEROTERAPIA</h2>
             <p class="description-font">
               Tratamiento eficaz para venas varicosas y arañas vasculares.
               Mejora la apariencia y alivia los síntomas con este procedimiento
@@ -20,25 +20,26 @@
               vena colapsada desaparece.
             </p>
             <div class="d-flex justify-content-center">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/yel2FNJqqEk?si=SK8SEXe1Zd-OZpgv&amp;controls=0&amp;start=26"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+              <swiper
+              :loop="true"
+              :autoplay="{
+                delay: 2000,
+                disableOnInteraction: false,
+              }"
+                :modules="modules"
+                class="mySwiper"
+              >
+                <swiper-slide><img src="@/assets/images/body/therapy/T1.jpeg" alt="..."></swiper-slide>
+                <swiper-slide><img src="@/assets/images/body/therapy/T2.jpeg" alt="..."></swiper-slide>
+                <swiper-slide><img src="@/assets/images/body/therapy/T3.jpeg" alt="..."></swiper-slide>
+                <swiper-slide><img src="@/assets/images/body/therapy/T4.jpeg" alt="..."></swiper-slide>
+              </swiper>
             </div>
-          </div>
-          <div class="d-flex justify-content-evenly align-items-center mt-5">
-            <button class="custom-button button-font">CONOCER MÁS</button>
-            <button class="custom-button button-font">AGENDAR TU CITA</button>
           </div>
         </div>
         <div class="col-5 custom-box ms-5">
           <div>
-            <h2 class="subtitle-font">LASER ARAÑAS VASCULARES</h2>
+            <h2 class="subtitle-font" id="laser">LASER ARAÑAS VASCULARES</h2>
             <p class="description-font">
               El laser es útil para vasos anómalos están localizados en un nivel
               más superficial de la piel, tienen un calibre mucho menor y, por
@@ -53,26 +54,22 @@
               apariencia de la piel.
             </p>
             <div class="d-flex justify-content-center">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/yel2FNJqqEk?si=SK8SEXe1Zd-OZpgv&amp;controls=0&amp;start=26"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+              <video
+                ref="videoRef"
+                src="@/assets/images/body/video/laser.mp4"
+                class="video-element"
+                autoplay
+                muted
+                @ended="restartVideo"
+              >
+              </video>
             </div>
-          </div>
-          <div class="d-flex justify-content-evenly align-items-center mt-5">
-            <button class="custom-button button-font">CONOCER MÁS</button>
-            <button class="custom-button button-font">AGENDAR TU CITA</button>
           </div>
         </div>
 
         <div class="col-5 custom-box me-5 mt-5">
           <div>
-            <h2 class="subtitle-font">DOPPLER VENOSO</h2>
+            <h2 class="subtitle-font" id="venous-doppler">DOPPLER VENOSO</h2>
             <p class="description-font">
               El Doppler Venoso es una avanzada técnica utilizada en nuestras
               modernas instalaciones, este innovador sistema nos permite evaluar
@@ -87,26 +84,18 @@
               crear imágenes, pero no se puede mostrar el flujo sanguíneo.
             </p>
             <div class="d-flex justify-content-center">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/yel2FNJqqEk?si=SK8SEXe1Zd-OZpgv&amp;controls=0&amp;start=26"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+              <img
+                src="@/assets/images/body/doppler.jpeg"
+                alt="..."
+                class="custom-image"
+              />
             </div>
-          </div>
-          <div class="d-flex justify-content-evenly align-items-center mt-5">
-            <button class="custom-button button-font">CONOCER MÁS</button>
-            <button class="custom-button button-font">AGENDAR TU CITA</button>
           </div>
         </div>
 
         <div class="col-5 custom-box ms-5 mt-5">
           <div>
-            <h2 class="subtitle-font">REFLEXOTERAPIA</h2>
+            <h2 class="subtitle-font" id="reflexotherapy">REFLEXOTERAPIA</h2>
             <p class="description-font">
               Con la Reflexoterapia, te sumergirás en un mundo de relajación y
               equilibrio mientras nuestros especialistas altamente capacitados
@@ -128,16 +117,12 @@
               />
             </div>
           </div>
-          <div class="d-flex justify-content-evenly align-items-center mt-5">
-            <button class="custom-button button-font">CONOCER MÁS</button>
-            <button class="custom-button button-font">AGENDAR TU CITA</button>
-          </div>
         </div>
 
         <div class="col-10 custom-box mt-5">
           <div class="row my-5">
             <div class="col-7">
-              <h2 class="subtitle-font">CONSULTA MEDICA VASCULAR</h2>
+              <h2 class="subtitle-font" id="medic-consult">CONSULTA MEDICA VASCULAR</h2>
               <p class="description-font">
                 La consulta vascular está dedicada a la prevención, diagnóstico
                 y tratamiento de las enfermedades de las arterias, las venas y
@@ -155,14 +140,6 @@
                 nuestros pacientes en su búsqueda de una salud vascular óptima y
                 una estética mejorada.
               </p>
-              <div
-                class="d-flex justify-content-evenly align-items-center mt-5"
-              >
-                <button class="custom-button button-font">CONOCER MÁS</button>
-                <button class="custom-button button-font">
-                  AGENDAR TU CITA
-                </button>
-              </div>
             </div>
             <div class="col-5 d-flex align-items-center">
               <div class="d-flex justify-content-center">
@@ -179,6 +156,33 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+import 'swiper/css/pagination';
+import { EffectCards, Autoplay, Pagination } from "swiper/modules";
+
+const modules = [Autoplay, EffectCards, Pagination];
+
+const videoRef = ref(null);
+
+const playVideo = () => {
+  videoRef.value.play();
+};
+
+const restartVideo = () => {
+  videoRef.value.currentTime = 0;
+  videoRef.value.play();
+};
+
+onMounted(() => {
+  videoRef.value.addEventListener("ended", restartVideo);
+  playVideo();
+});
+</script>
+
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 .custom-background {
@@ -257,5 +261,31 @@
 }
 .custom-span {
   color: #fff;
+}
+
+.video-element{
+  width: 100%;
+  border-radius: 25px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
 }
 </style>

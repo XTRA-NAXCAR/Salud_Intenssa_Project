@@ -32,38 +32,51 @@
               style="width: 100%"
             >
               <ul
-                class="navbar-nav ms-auto mb-2 mb-lg-0 d-lg-flex justify-content-end custom-margin"
+                class="navbar-nav ms-auto mb-2 mb-lg-0 d-lg-flex justify-content-evenly custom-margin"
               >
-                <li
-                  class="nav-item fs-5 d-lg-flex justify-content-center align-items-center"
-                >
-                  <a
-                    class="nav-link nav-item-start"
-                    aria-current="page"
-                    href="#"
-                    >INICIO</a
-                  >
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    MEDICINA ESTETICA VASCULAR
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item btn" @click="scrollToService('sclerotherapy')">ESCLEROTERAPIA</a></li>
+                    <li><a class="dropdown-item btn" @click="scrollToService('laser')">LASER ARAÑAS VASCULARES</a></li>
+                    <li><hr class="dropdown-divider btn"></li>
+                    <li><a class="dropdown-item" @click="scrollToService('venous-doppler')">DOPPLER VENOSO</a></li>
+                    <li><a class="dropdown-item btn" @click="scrollToService('reflexotherapy')">REFLEXOTERAPIA</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item btn" @click="scrollToService('medic-consult')">CONSULTA MEDICA VASCULAR</a></li>
+                  </ul>
                 </li>
-                <li
-                  class="nav-item d-lg-flex justify-content-center align-items-center ms-lg-5"
-                >
-                  <a
-                    class="nav-link custom-nav-item fs-5"
-                    @click="$emit('scroll_to_products')"
-                    style="cursor: pointer"
-                    >PROCEDIMIENTOS</a
-                  >
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    MEDICINA ESTETICA FACIAL
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item btn" @click="scrollToService('facial-laser')">LASER FACIAL</a></li>
+                    <li><a class="dropdown-item btn" @click="scrollToService('botulinum-toxin')">TOXINA BOTULINICA</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item btn" @click="scrollToService('hyaluronic-acid')">ACIDO HIALURONICO</a></li>
+                    <li><a class="dropdown-item btn" @click="scrollToService('regenerative-medicine')">MEDICINA REGENERATIVA</a></li>
+                  </ul>
                 </li>
-                <li
-                  class="nav-item d-lg-flex justify-content-center align-items-center ms-lg-5"
-                >
-                  <a
-                    class="nav-link custom-nav-item fs-5"
-                    target="_blank"
-                    @click="$emit('scroll_to_measure')"
-                    style="cursor: pointer"
-                    >CONTACTO</a
-                  >
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    MEDICINA DEL DOLOR
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item btn" @click="scrollToService('neural-therapy')">TERAPIA NEURAL</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item btn" @click="scrollToService('biological-therapy')">TERAPIAS BIOLOGICAS</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    COSMETOLOGÍA
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item btn" @click="scrollToService('hydrodermoabrasion')">HIDRODERMOABRASION</a></li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -96,6 +109,21 @@ const navbarProps = {
 };
 </script>
 
+<script>
+export default {
+  methods: {
+    scrollToService(targetId) {
+      // Encontrar el elemento objetivo
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        const scrollPosition = targetElement.offsetTop - 100;
+        window.scrollTo({ top: scrollPosition, behavior: 'smooth' });
+      }
+    },
+  },
+};
+</script>
 
 <style>
 .navbar-container {
