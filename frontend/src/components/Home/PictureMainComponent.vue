@@ -9,7 +9,7 @@
       <div class="custom-box">
         <div class="text-align-start">
           <h2 class="title-font">SALUD INTENSSA MEDICINA ANTIENVEJECIMIENTO</h2>
-          <p class="description-font">Procedimientos personalizados, mínimamente invasivos.</p>
+          <p class="description-font d-none d-md-inline">Procedimientos personalizados, mínimamente invasivos.</p>
         </div>
 
       </div>
@@ -59,6 +59,29 @@
   box-sizing: border-box;
   padding-left: 30px;
   border-top-right-radius: 25px;
+}
+
+@media (max-width: 576px) {
+  .image-wrapper{
+    height: 400px;
+  }
+  .custom-box{
+    width: 250px;
+    height: 120px;
+    padding-left: 10px;
+  }
+  .title-font{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .image-wrapper{
+    height: 600px;
+  }
+  .custom-box{
+    width: 600px;
+  }
 }
 </style>
 

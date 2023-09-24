@@ -3,7 +3,7 @@
     <div class="container">
       <h1 class="title-font text-center">- MEDICINA DEL DOLOR -</h1>
       <div class="row">
-        <div class="col-7 custom-card-pain my-5">
+        <div class="col-12 col-lg-7 custom-card-pain my-5">
           <h2 class="subtitle-font" id="neural-therapy">TERAPIA NEURAL</h2>
           <p class="description-font">
             La terapia neural, un enfoque terapéutico único, implica la
@@ -51,7 +51,7 @@
           </ul>
         </div>
         <div
-          class="col-5 d-flex justify-content-center align-items-center my-5"
+          class="col-12 col-lg-5 d-flex justify-content-center align-items-center my-5"
         >
           <swiper
             :effect="'cards'"
@@ -82,7 +82,7 @@
           </swiper>
         </div>
         <div
-          class="col-5 d-flex justify-content-center align-items-center mt-5"
+          class="col-5 d-none d-lg-flex justify-content-center align-items-center mt-5"
         >
           <swiper
             :effect="'cards'"
@@ -113,7 +113,7 @@
           </swiper>
         </div>
 
-        <div class="col-7 custom-card-pain mt-5">
+        <div class="col-12 col-lg-7 custom-card-pain mt-5">
           <h2 class="subtitle-font" id="biological-therapy">TERAPIAS BIOLOGICAS</h2>
           <p class="description-font">
             Nuestra especialidad abarca un amplio espectro de patologías,
@@ -156,10 +156,41 @@
           </ul>
         </div>
       </div>
+      <div
+          class="col-12 d-flex d-lg-none justify-content-center align-items-center mt-5"
+        >
+          <swiper
+            :effect="'cards'"
+            :loop="true"
+            :autoplay="{
+              delay: 3000,
+              disableOnInteraction: false,
+            }"
+            :grabCursor="true"
+            :modules="modules"
+            class="mySwiper"
+          >
+            <swiper-slide
+              ><img
+                src="@/assets/images/services/Biological_Therapies/1.jpeg"
+                alt="..."
+            /></swiper-slide>
+            <swiper-slide
+              ><img
+                src="@/assets/images/services/Biological_Therapies/2.jpeg"
+                alt="..."
+            /></swiper-slide>
+            <swiper-slide
+              ><img
+                src="@/assets/images/services/Biological_Therapies/3.jpeg"
+                alt="..."
+            /></swiper-slide>
+          </swiper>
+        </div>
 
       <h1 class="title-font text-center my-5">- COSMETOLOGÍA -</h1>
       <div class="row">
-        <div class="col-7 custom-card-pain my-5">
+        <div class="col-12 col-lg-7 custom-card-pain my-5">
           <h2 class="subtitle-font" id="hydrodermoabrasion">HIDRODERMOABRASION</h2>
           <p class="description-font">
             La hidrodermoabrasión, un procedimiento de última generación, emerge
@@ -202,7 +233,7 @@
           </ul>
         </div>
         <div
-          class="col-5 d-flex justify-content-center align-items-center my-5"
+          class="col-12 col-lg-5 d-flex justify-content-center align-items-center my-5"
         >
           <swiper
             :effect="'cards'"
@@ -306,5 +337,37 @@ const modules = [Autoplay, EffectCards];
 }
 .swiper-slide img {
   width: 100%;
+}
+
+@media (max-width: 576px) {
+  .title-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.subtitle-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #2f2f2f;
+}
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .title-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.subtitle-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: #2f2f2f;
+}
 }
 </style>

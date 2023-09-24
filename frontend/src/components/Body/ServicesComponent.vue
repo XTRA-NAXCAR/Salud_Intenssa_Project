@@ -6,7 +6,7 @@
       </h1>
       <div class="row">
         <div
-          class="col-5 d-flex justify-content-center align-items-center my-5"
+          class="col-5 d-none d-lg-flex justify-content-center align-items-center my-5"
         >
           <swiper
             :effect="'cards'"
@@ -36,7 +36,7 @@
             /></swiper-slide>
           </swiper>
         </div>
-        <div class="col-7 custom-card my-5">
+        <div class="col-12 col-lg-7 custom-card my-5">
           <h2 class="subtitle-font" id="facial-laser">LASER FACIAL</h2>
           <p class="description-font">
             El revolucionario tratamiento con rayo láser que ofrecemos en la
@@ -59,8 +59,39 @@
             dejándola más suave, firme y juvenil.
           </p>
         </div>
+        <div
+          class="col-12 d-flex d-lg-none justify-content-center align-items-center my-5"
+        >
+          <swiper
+            :effect="'cards'"
+            :loop="true"
+            :autoplay="{
+              delay: 3000,
+              disableOnInteraction: false,
+            }"
+            :grabCursor="true"
+            :modules="modules"
+            class="mySwiper"
+          >
+            <swiper-slide
+              ><img
+                src="@/assets/images/services/Facial_Laser/1.jpeg"
+                alt="..."
+            /></swiper-slide>
+            <swiper-slide
+              ><img
+                src="@/assets/images/services/Facial_Laser/2.jpeg"
+                alt="..."
+            /></swiper-slide>
+            <swiper-slide
+              ><img
+                src="@/assets/images/services/Facial_Laser/3.jpeg"
+                alt="..."
+            /></swiper-slide>
+          </swiper>
+        </div>
 
-        <div class="col-7 custom-card my-5">
+        <div class="col-12 col-lg-7 custom-card my-5">
           <h2 class="subtitle-font" id="botulinum-toxin">TOXINA BOTULINICA</h2>
           <p class="description-font">
             La toxina botulínica, conocida por su nombre comercial Botox, es un
@@ -126,7 +157,7 @@
           </ul>
         </div>
         <div
-          class="col-5 d-flex justify-content-center align-items-center mt-5"
+          class="col-12 col-lg-5 d-flex justify-content-center align-items-center mt-5"
         >
           <swiper
             :effect="'cards'"
@@ -158,7 +189,7 @@
         </div>
 
         <div
-          class="col-5 d-flex justify-content-center align-items-center my-5"
+          class="col-5 d-none d-lg-flex justify-content-center align-items-center my-5"
         >
           <swiper
             :effect="'cards'"
@@ -188,7 +219,7 @@
             /></swiper-slide>
           </swiper>
         </div>
-        <div class="col-7 custom-card my-5">
+        <div class="col-12 col-lg-7 custom-card my-5">
           <h2 class="subtitle-font" id="hyaluronic-acid">ACIDO HIALURONICO</h2>
           <p class="description-font">
             El ácido hialurónico, un aliado esencial en el mundo de la belleza y
@@ -244,8 +275,39 @@
             </li>
           </ul>
         </div>
+        <div
+          class="col-12 d-flex d-lg-none justify-content-center align-items-center my-5"
+        >
+          <swiper
+            :effect="'cards'"
+            :loop="true"
+            :autoplay="{
+              delay: 3000,
+              disableOnInteraction: false,
+            }"
+            :grabCursor="true"
+            :modules="modules"
+            class="mySwiper"
+          >
+            <swiper-slide
+              ><img
+                src="@/assets/images/services/Hyaluronic_acid/1.jpeg"
+                alt="..."
+            /></swiper-slide>
+            <swiper-slide
+              ><img
+                src="@/assets/images/services/Hyaluronic_acid/2.jpeg"
+                alt="..."
+            /></swiper-slide>
+            <swiper-slide
+              ><img
+                src="@/assets/images/services/Hyaluronic_acid/3.jpeg"
+                alt="..."
+            /></swiper-slide>
+          </swiper>
+        </div>
 
-        <div class="col-7 custom-card mt-5">
+        <div class="col-12 col-lg-7 custom-card mt-5">
           <h2 class="subtitle-font" id="regenerative-medicine">MEDICINA REGENERATIVA</h2>
           <p class="description-font">
             La medicina regenerativa se despliega como un vasto horizonte de
@@ -268,7 +330,7 @@
           </ul>
         </div>
         <div
-          class="col-5 d-flex justify-content-center align-items-center mt-5"
+          class="col-12 col-lg-5 d-flex justify-content-center align-items-center mt-5"
         >
           <swiper
             :effect="'cards'"

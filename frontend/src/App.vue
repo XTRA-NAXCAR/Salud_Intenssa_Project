@@ -29,6 +29,9 @@ import FloatingSocialNetwork from './components/Social_Networks/FloatingSocialNe
   font-family: Arial, sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
 ::-webkit-scrollbar {
   width: 10px; 
 }

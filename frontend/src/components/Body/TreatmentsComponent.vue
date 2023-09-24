@@ -5,7 +5,7 @@
         - MEDICINA ESTETICA VASCULAR -
       </h1>
       <div class="row d-flex justify-content-center">
-        <div class="col-5 custom-box me-5" ref="sclerotherapy">
+        <div class="col-12 col-lg-5 custom-box me-lg-5" ref="sclerotherapy">
           <div>
             <h2 class="subtitle-font" id="sclerotherapy">ESCLEROTERAPIA</h2>
             <p class="description-font">
@@ -37,7 +37,7 @@
             </div>
           </div>
         </div>
-        <div class="col-5 custom-box ms-5">
+        <div class="col-12 col-lg-5 custom-box ms-lg-5">
           <div>
             <h2 class="subtitle-font" id="laser">LASER ARAÑAS VASCULARES</h2>
             <p class="description-font">
@@ -67,7 +67,7 @@
           </div>
         </div>
 
-        <div class="col-5 custom-box me-5 mt-5">
+        <div class="col-12 col-lg-5 custom-box me-lg-5 mt-5">
           <div>
             <h2 class="subtitle-font" id="venous-doppler">DOPPLER VENOSO</h2>
             <p class="description-font">
@@ -93,7 +93,7 @@
           </div>
         </div>
 
-        <div class="col-5 custom-box ms-5 mt-5">
+        <div class="col-12 col-lg-5 custom-box ms-lg-5 mt-5">
           <div>
             <h2 class="subtitle-font" id="reflexotherapy">REFLEXOTERAPIA</h2>
             <p class="description-font">
@@ -119,9 +119,9 @@
           </div>
         </div>
 
-        <div class="col-10 custom-box mt-5">
+        <div class="col-12 col-lg-10 custom-box me-lg-5 mt-5">
           <div class="row my-5">
-            <div class="col-7">
+            <div class="col-12 col-lg-7">
               <h2 class="subtitle-font" id="medic-consult">CONSULTA MEDICA VASCULAR</h2>
               <p class="description-font">
                 La consulta vascular está dedicada a la prevención, diagnóstico
@@ -141,7 +141,7 @@
                 una estética mejorada.
               </p>
             </div>
-            <div class="col-5 d-flex align-items-center">
+            <div class="col-12 col-lg-5 d-flex align-items-center">
               <div class="d-flex justify-content-center">
                 <img
                   src="@/assets/images/body/medic_consult.jpeg"

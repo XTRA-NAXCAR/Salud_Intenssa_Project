@@ -22,7 +22,7 @@
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            style="background-color: #1e99d4"
+            style="background-color: #D1B684"
           >
             <i class="bi bi-list" style="font-size: 30px; color: #fff"></i>
           </button>
@@ -41,7 +41,7 @@
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item btn" @click="scrollToService('sclerotherapy')">ESCLEROTERAPIA</a></li>
                     <li><a class="dropdown-item btn" @click="scrollToService('laser')">LASER ARAÑAS VASCULARES</a></li>
-                    <li><hr class="dropdown-divider btn"></li>
+                    <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" @click="scrollToService('venous-doppler')">DOPPLER VENOSO</a></li>
                     <li><a class="dropdown-item btn" @click="scrollToService('reflexotherapy')">REFLEXOTERAPIA</a></li>
                     <li><hr class="dropdown-divider"></li>
@@ -155,7 +155,6 @@ export default {
 }
 .img-nav-responsive {
   height: 50px;
-  padding-left: 70px;
 }
 .custom-margin{
   margin-right: 200px;
@@ -165,7 +164,7 @@ export default {
 }
 @media (max-width: 580px) {
   .img-nav-responsive {
-    height: 80px;
+    height: 50px;
   }
   .img-nav-text {
     height: 40px;
@@ -174,7 +173,7 @@ export default {
 
 @media (min-width: 581px) and (max-width: 992px) {
   .img-nav-responsive {
-    height: 100px;
+    height: 35px;
   }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid main-container-custom">
         <div class="row">
-            <div class="col-5">
+            <div class="col-md-5 col-12 d-flex justify-content-center align-items-center">
                 <div class="row">
                     <div class="col-12 text-center">
                         <i class="bi bi-activity setup-star"></i>
@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-7 custom-background">
+            <div class="col-md-7 col-12 custom-background">
                 <p class="text-font">Misión:</p>
                 <p class="text-font">Somos un equipo médico interdisciplinario en función del servicio al paciente en el área de medicina estética vascular y dermatológica.</p>
                 <p class="text-font">Valor:</p>
