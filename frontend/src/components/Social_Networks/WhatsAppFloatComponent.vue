@@ -1,6 +1,6 @@
 <template>
   <div class="whatsapp-chat">
-    <a href="https://wa.link/9qcqr7" target="_blank" class="whatsapp-icon">
+    <a href="https://wa.link/gs1tpn" target="_blank" class="whatsapp-icon">
       <i class="bi bi-whatsapp"></i>
     </a>
   </div>

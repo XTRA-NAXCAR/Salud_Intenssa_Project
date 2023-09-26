@@ -239,13 +239,19 @@
             :effect="'cards'"
             :loop="true"
             :autoplay="{
-              delay: 3000,
+              delay: 2000,
               disableOnInteraction: false,
             }"
             :grabCursor="true"
             :modules="modules"
             class="mySwiper"
           >
+            <swiper-slide>
+              <img
+                src="@/assets/images/body/machine.jpeg"
+                alt="..."
+              />
+            </swiper-slide>
             <swiper-slide
               ><img
                 src="@/assets/images/services/Hydrodermabrasion/1.jpeg"

@@ -37,7 +37,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-5 custom-box ms-lg-5">
+        <div class="col-12 col-lg-5 custom-box ms-lg-5 mt-5 mt-lg-0">
           <div>
             <h2 class="subtitle-font" id="laser">LASER ARAÑAS VASCULARES</h2>
             <p class="description-font">

@@ -19,12 +19,12 @@
                 Contacto:
               </strong>
             </h5>
-            <p class="card-text text-black"><strong>Teléfono:</strong> +57 323 812 2373</p>
+            <p class="card-text text-black"><strong>Teléfono:</strong> +57 302 846 7131</p>
             <p class="card-text text-black">
-              <strong>Correo:</strong> info@paginaswebscolombia.com.co
+              <strong>Correo:</strong> info@saludintenssa.com
             </p>
             <p class="card-text text-black">
-              <strong>Dirección:</strong> Carrera 91 # 48C - 19 Medellín, Antioquia
+              <strong>Dirección:</strong> Carrera 46 Número 54 - 14 / Piso 1010
             </p>
           </div>
         </div>
@@ -34,19 +34,19 @@
           <div class="card-body">
             <h5 class="card-title mb-4 pb-3 RalewayFont text-black">Sitio:</h5>
             <div>
-              <a class="card-text text-black" href="#" style="text-decoration: none;"><strong>Home</strong></a>
+              <a class="card-text text-black" href="#" style="text-decoration: none;"><strong>Inicio</strong></a>
             </div>
             <div class="mt-3" @click="$emit('scroll_to_About_Us')" style="cursor: pointer;">
-              <a class="card-text text-black" style="text-decoration: none;"><strong>¿Quienes Somos?</strong></a>
+              <a class="card-text text-black" style="text-decoration: none;"><strong>Medicina Estetica Vascular</strong></a>
             </div>
             <div class="mt-3" @click="$emit('scroll_to_products')" style="cursor: pointer;">
-              <a class="card-text text-black" style="text-decoration: none;"><strong>Productos</strong></a>
+              <a class="card-text text-black" style="text-decoration: none;"><strong>Medicina Estetica Facial</strong></a>
             </div>
             <div class="mt-3" @click="$emit('scroll_to_measure')" style="cursor: pointer;">
-              <a class="card-text text-black" style="text-decoration: none;"><strong>Software A La Medida</strong></a>
+              <a class="card-text text-black" style="text-decoration: none;"><strong>Medicina Del Dolor</strong></a>
             </div>
             <div class="mt-3" @click="$emit('scroll_to_comparate')" style="cursor: pointer;">
-              <a class="card-text text-black" style="text-decoration: none;"><strong>¿Como Nos Diferenciamos?</strong></a>
+              <a class="card-text text-black" style="text-decoration: none;"><strong>Cosmetología</strong></a>
             </div>
           </div>
         </div>
@@ -81,7 +81,9 @@
     style="background-color: #D1B684"
   >
     <h6 class="text-center RalewayFont">
-      © 2023 Paginas Webs Colombia | Design by Paginas Webs Colombia
+      <a href="https://www.paginaswebscolombia.com.co/" style="text-decoration: none; color: #000;">
+        © 2023 Paginas Webs Colombia | Design by Paginas Webs Colombia Click Aquí
+      </a>
     </h6>
   </div>
 </template>
