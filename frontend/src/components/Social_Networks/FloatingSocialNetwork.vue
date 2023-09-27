@@ -12,7 +12,7 @@
           <div class="icon-text RalewayFont" v-show="isHovered">
             <a
               class="text-white"
-              href="https://www.instagram.com/paginaswebscolombia_/"
+              href="https://www.instagram.com/salud_intenssa/"
               target="_blank"
               style="text-decoration: none"
               >Instagram</a
@@ -30,7 +30,7 @@
           >
           <a
               class="text-white"
-              href="https://www.facebook.com/Paginaswebscolombia_"
+              href="https://www.facebook.com/profile.php?id=61551353764434"
               target="_blank"
               style="text-decoration: none"
               >Facebook</a
@@ -57,7 +57,7 @@ export default {
   position: fixed;
   width: 60px;
   height: 135px;
-  top: 400px;
+  top: 200px;
   right: 0px;
   background-color: #D1B684;
   border-top-left-radius: 30px;

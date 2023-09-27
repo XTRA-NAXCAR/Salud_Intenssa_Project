@@ -1,6 +1,6 @@
 <template>
   <div class="whatsapp-chat">
-    <a href="https://wa.link/gs1tpn" target="_blank" class="whatsapp-icon">
+    <a href="https://wa.link/iid2xh" target="_blank" class="whatsapp-icon">
       <i class="bi bi-whatsapp"></i>
     </a>
   </div>
@@ -26,7 +26,7 @@
   font-size: 40px;
   color: white;
   text-decoration: none;
-  animation: changeBackgroundColor 1s linear infinite alternate;
+  animation: changeBackgroundColor 0.5s linear infinite alternate;
 }
 
 @keyframes changeBackgroundColor {
@@ -34,7 +34,7 @@
     background-color: #25d366;
   }
   100% {
-    background-color: #128c7e;
+    background-color: transparent;
   }
 }
 </style>

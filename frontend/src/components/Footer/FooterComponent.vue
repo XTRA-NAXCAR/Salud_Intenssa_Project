@@ -19,12 +19,12 @@
                 Contacto:
               </strong>
             </h5>
-            <p class="card-text text-black"><strong>Teléfono:</strong> +57 302 846 7131</p>
+            <p class="card-text text-black"><strong>Teléfono:</strong> +57 302 389 1677</p>
             <p class="card-text text-black">
               <strong>Correo:</strong> info@saludintenssa.com
             </p>
             <p class="card-text text-black">
-              <strong>Dirección:</strong> Carrera 46 Número 54 - 14 / Piso 1010
+              <strong>Dirección:</strong> <a href="https://maps.app.goo.gl/aD6YZHAuPXhG8Ba58" target="_blank" class="btn">Edificio Comedal, Oriental Con Caracas Diagonal Clinica Medellín Del Centro, Carrera 46 Número 54 - 14 / Piso 1010</a>
             </p>
           </div>
         </div>

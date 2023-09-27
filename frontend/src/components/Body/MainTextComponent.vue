@@ -8,14 +8,14 @@
                     </div>
                     <div class="col-12 text-center">
                         <h2 class="title-font">SALUD INTENSSA</h2>
-                        <p class="description-font">Médicos Especializados</p>
+                        <p class="description-font">Medicina Especializada</p>
                         <p class="description-font">Procedimientos Profesionales</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-7 col-12 custom-background">
                 <p class="text-font">Misión:</p>
-                <p class="text-font">Somos un equipo médico interdisciplinario en función del servicio al paciente en el área de medicina estética vascular y dermatológica.</p>
+                <p class="text-font">Somos un equipo médico interdisciplinario en función del servicio al paciente en el área de medicina estética vascular y medicina estética facial.</p>
                 <p class="text-font">Valor:</p>
                 <p class="text-font">Ser líder en los resultados terapéuticos médicos estéticos vasculares y dermatológicos generando alta innovación en mejoramiento de la calidad.</p>
                 <p class="text-font">Visión:</p>

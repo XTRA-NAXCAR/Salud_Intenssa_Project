@@ -15,7 +15,6 @@ import FloatingSocialNetwork from './components/Social_Networks/FloatingSocialNe
 <NavbarComponent></NavbarComponent>
 <PictureMainComponent></PictureMainComponent>
 <MainTextComponent></MainTextComponent>
-<IntermediatePictureComponent></IntermediatePictureComponent>
 <TreatmentsComponent></TreatmentsComponent>
 <ServicesComponent></ServicesComponent>
 <PainMedicine></PainMedicine>

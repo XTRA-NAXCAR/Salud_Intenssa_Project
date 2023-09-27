@@ -1,10 +1,20 @@
 <template>
   <div class="custom-background">
     <div class="container-fluid custom-container">
-      <h1 class="text-center title-font">
-        - MEDICINA ESTETICA VASCULAR -
-      </h1>
-      <div class="row d-flex justify-content-center">
+      <h1 class="text-center title-font">- MEDICINA ESTETICA VASCULAR -</h1>
+      <div class="container-fluid px-0">
+        <div class="video-wrapper">
+          <video
+            ref="videoRef2"
+            src="@/assets/images/body/video/laser.mp4"
+            class="video-element"
+            autoplay
+            muted
+            @ended="restartVideo2"
+          ></video>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center mt-5">
         <div class="col-12 col-lg-5 custom-box me-lg-5" ref="sclerotherapy">
           <div>
             <h2 class="subtitle-font" id="sclerotherapy">ESCLEROTERAPIA</h2>
@@ -21,18 +31,26 @@
             </p>
             <div class="d-flex justify-content-center">
               <swiper
-              :loop="true"
-              :autoplay="{
-                delay: 2000,
-                disableOnInteraction: false,
-              }"
+                :loop="true"
+                :autoplay="{
+                  delay: 2000,
+                  disableOnInteraction: false,
+                }"
                 :modules="modules"
                 class="mySwiper"
               >
-                <swiper-slide><img src="@/assets/images/body/therapy/T1.jpeg" alt="..."></swiper-slide>
-                <swiper-slide><img src="@/assets/images/body/therapy/T2.jpeg" alt="..."></swiper-slide>
-                <swiper-slide><img src="@/assets/images/body/therapy/T3.jpeg" alt="..."></swiper-slide>
-                <swiper-slide><img src="@/assets/images/body/therapy/T4.jpeg" alt="..."></swiper-slide>
+                <swiper-slide
+                  ><img src="@/assets/images/body/therapy/T1.jpeg" alt="..."
+                /></swiper-slide>
+                <swiper-slide
+                  ><img src="@/assets/images/body/therapy/T2.jpeg" alt="..."
+                /></swiper-slide>
+                <swiper-slide
+                  ><img src="@/assets/images/body/therapy/T3.jpeg" alt="..."
+                /></swiper-slide>
+                <swiper-slide
+                  ><img src="@/assets/images/body/therapy/T4.jpeg" alt="..."
+                /></swiper-slide>
               </swiper>
             </div>
           </div>
@@ -61,8 +79,7 @@
                 autoplay
                 muted
                 @ended="restartVideo"
-              >
-              </video>
+              ></video>
             </div>
           </div>
         </div>
@@ -84,11 +101,25 @@
               crear imágenes, pero no se puede mostrar el flujo sanguíneo.
             </p>
             <div class="d-flex justify-content-center">
-              <img
-                src="@/assets/images/body/doppler.jpeg"
-                alt="..."
-                class="custom-image"
-              />
+              <swiper
+                :loop="true"
+                :autoplay="{
+                  delay: 2000,
+                  disableOnInteraction: false,
+                }"
+                :modules="modules"
+                class="mySwiper"
+              >
+                <swiper-slide
+                  ><img src="@/assets/images/body/doppler.jpeg" alt="..." class="custom-image"
+                /></swiper-slide>
+                <swiper-slide
+                  ><img src="@/assets/images/body/doppler1.jpeg" alt="..." class="custom-image"
+                /></swiper-slide>
+                <swiper-slide
+                  ><img src="@/assets/images/body/doppler2.jpeg" alt="..." class="custom-image"
+                /></swiper-slide>
+              </swiper>
             </div>
           </div>
         </div>
@@ -110,11 +141,25 @@
               estrés, reducir la tensión muscular y mejorar la circulación.
             </p>
             <div class="d-flex justify-content-center">
-              <img
-                src="@/assets/images/body/reflexotherapy.jpeg"
-                alt="..."
-                class="custom-image"
-              />
+              <swiper
+                :loop="true"
+                :autoplay="{
+                  delay: 2000,
+                  disableOnInteraction: false,
+                }"
+                :modules="modules"
+                class="mySwiper"
+              >
+                <swiper-slide
+                  ><img src="@/assets/images/body/reflexotherapy.jpeg" alt="..." class="custom-image"
+                /></swiper-slide>
+                <swiper-slide
+                  ><img src="@/assets/images/body/reflexotherapy1.jpeg" alt="..." class="custom-image"
+                /></swiper-slide>
+                <swiper-slide
+                  ><img src="@/assets/images/body/reflexotherapy2.jpeg" alt="..." class="custom-image"
+                /></swiper-slide>
+              </swiper>
             </div>
           </div>
         </div>
@@ -122,23 +167,25 @@
         <div class="col-12 col-lg-10 custom-box me-lg-5 mt-5">
           <div class="row my-5">
             <div class="col-12 col-lg-7">
-              <h2 class="subtitle-font" id="medic-consult">CONSULTA MEDICA VASCULAR</h2>
+              <h2 class="subtitle-font" id="medic-consult">
+                CONSULTA MEDICA ESTETICA VASCULAR
+              </h2>
               <p class="description-font">
-                La consulta vascular está dedicada a la prevención, diagnóstico
-                y tratamiento de las enfermedades de las arterias, las venas y
-                los vasos linfáticos y en general de todas las
-                enfermedades vasculares, así como el segumiento de los
+                La consulta medica estetica vascular está dedicada a la
+                prevención, diagnóstico y tratamiento de las enfermedades de las
+                arterias, las venas y los vasos linfáticos y en general de todas
+                las enfermedades vasculares, así como el segumiento de los
                 tratamientos realizados.
               </p>
               <p class="description-font">
                 Nos enorgullece ofrecer una atención de vanguardia para abordar
                 todas las enfermedades vasculares, asegurando que nuestros
-                pacientes reciban la atención de alta calidad que merecen. Además,
-                no nos limitamos al tratamiento inicial, sino que también
-                proporcionamos un seguimiento meticuloso de los tratamientos
-                realizados para garantizar resultados óptimos y la satisfacción de
-                nuestros pacientes en su búsqueda de una salud vascular óptima y
-                una estética mejorada.
+                pacientes reciban la atención de alta calidad que merecen.
+                Además, no nos limitamos al tratamiento inicial, sino que
+                también proporcionamos un seguimiento meticuloso de los
+                tratamientos realizados para garantizar resultados óptimos y la
+                satisfacción de nuestros pacientes en su búsqueda de una salud
+                vascular óptima y una estética mejorada.
               </p>
             </div>
             <div class="col-12 col-lg-5 d-flex align-items-center">
@@ -161,12 +208,13 @@
 import { ref, onMounted } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
-import 'swiper/css/pagination';
+import "swiper/css/pagination";
 import { EffectCards, Autoplay, Pagination } from "swiper/modules";
 
 const modules = [Autoplay, EffectCards, Pagination];
 
 const videoRef = ref(null);
+const videoRef2 = ref(null); 
 
 const playVideo = () => {
   videoRef.value.play();
@@ -177,11 +225,22 @@ const restartVideo = () => {
   videoRef.value.play();
 };
 
+const playVideo2 = () => {
+  videoRef2.value.play();
+};
+
+const restartVideo2 = () => {
+  videoRef2.value.currentTime = 0;
+  videoRef2.value.play();
+};
+
 onMounted(() => {
   videoRef.value.addEventListener("ended", restartVideo);
   playVideo();
+  playVideo2();
 });
 </script>
+
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
@@ -263,7 +322,7 @@ onMounted(() => {
   color: #fff;
 }
 
-.video-element{
+.video-element {
   width: 100%;
   border-radius: 25px;
 }

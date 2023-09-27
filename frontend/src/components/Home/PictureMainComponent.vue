@@ -8,8 +8,8 @@
       >
       <div class="custom-box">
         <div class="text-align-start">
-          <h2 class="title-font">SALUD INTENSSA MEDICINA ANTIENVEJECIMIENTO</h2>
-          <p class="description-font d-none d-md-inline">Procedimientos personalizados, mínimamente invasivos.</p>
+          <h2 class="title-font text-center">SALUD INTENSSA MEDICINA ANTIENVEJECIMIENTO</h2>
+          <p class="description-font d-none d-md-block text-center">Procedimientos personalizados, mínimamente invasivos.</p>
         </div>
 
       </div>
@@ -36,7 +36,7 @@
 .image-wrapper {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
+  padding-bottom: 68.25%;
   overflow: hidden;
 }
 
@@ -51,14 +51,15 @@
 
 .custom-box {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -10px;
+  left: 25%;
   width: 700px; 
   height: 175px; 
   background-color: #d1b684;
   box-sizing: border-box;
   padding-left: 30px;
   border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 
 @media (max-width: 576px) {

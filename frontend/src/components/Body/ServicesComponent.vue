@@ -4,6 +4,16 @@
       <h1 class="text-center title-font">
         - MEDICINA ESTETICA FACIAL -
       </h1>
+      <div class="video-wrapper">
+          <video
+            ref="videoRef"
+            src="@/assets/images/body/video/laser2.mp4"
+            class="video-element"
+            autoplay
+            muted
+            @ended="restartVideo2"
+          ></video>
+        </div>
       <div class="row">
         <div
           class="col-5 d-none d-lg-flex justify-content-center align-items-center my-5"
@@ -369,6 +379,23 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import { EffectCards, Autoplay } from "swiper/modules";
+import { ref, onMounted } from "vue";
+
+const videoRef = ref(null);
+
+const playVideo = () => {
+  videoRef.value.play();
+};
+
+const restartVideo = () => {
+  videoRef.value.currentTime = 0;
+  videoRef.value.play();
+};
+
+onMounted(() => {
+  videoRef.value.addEventListener("ended", restartVideo);
+  playVideo();
+});
 
 const modules = [Autoplay, EffectCards];
 </script>
@@ -428,5 +455,34 @@ const modules = [Autoplay, EffectCards];
 }
 .swiper-slide img {
   width: 100%;
+}
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.video-element {
+  width: 100%; 
+  height: auto;
+  border-radius: 25px;
+}
+
+@media (max-width: 576px) {
+
+  .video-wrapper {
+    height: auto;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  
+  .video-wrapper {
+    height: auto; 
+  }
 }
 </style>

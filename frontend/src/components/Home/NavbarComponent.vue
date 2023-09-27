@@ -42,7 +42,7 @@
                     <li><a class="dropdown-item btn" @click="scrollToService('sclerotherapy')">ESCLEROTERAPIA</a></li>
                     <li><a class="dropdown-item btn" @click="scrollToService('laser')">LASER ARAÑAS VASCULARES</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" @click="scrollToService('venous-doppler')">DOPPLER VENOSO</a></li>
+                    <li><a class="dropdown-item btn" @click="scrollToService('venous-doppler')">DOPPLER VENOSO</a></li>
                     <li><a class="dropdown-item btn" @click="scrollToService('reflexotherapy')">REFLEXOTERAPIA</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item btn" @click="scrollToService('medic-consult')">CONSULTA MEDICA VASCULAR</a></li>
